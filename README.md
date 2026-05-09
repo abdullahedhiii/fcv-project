@@ -18,14 +18,14 @@ This repository contains the implementation of a simplified SILCO (Spatial-Inter
 
 ### 1. Training
 The training script utilizes episodic sampling. To start training:
-- Ensure the `data` directory contains the Pascal VOC files.
-- Run the training block. It will automatically save checkpoints in `/checkpoints/latest.pth`.
+- Ensure the data directory contains the Pascal VOC files.
+- Run the training block. It will automatically save checkpoints in /checkpoints/latest.pth.
 - The script includes a safe loading mechanism; if a checkpoint exists but the architecture has changed, it will default to a fresh training session.
 
 ### 2. Evaluation
 To evaluate the trained model:
-- Load the `best.pth` checkpoint.
-- The `evaluate_model` function runs 500 episodes to generate the final mIoU and Accuracy scores.
+- Load the best.pth checkpoint.
+- The evaluate_model function runs 500 episodes to generate the final mIoU and Accuracy scores.
 
 ### 3. Inference & Visualization
 The final cell in the notebook provides a qualitative visualization grid. It displays:
