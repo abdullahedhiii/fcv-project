@@ -33,6 +33,6 @@ The final cell in the notebook provides a qualitative visualization grid. It dis
 2. Query Image 
 3. Ground Truth vs. SILCO Prediction Heatmap
 
-## Authors
+## Group members
 - Abdullah Anis Edhi (22K-4392)
 - Muhammad Taha Khan (22K-4609)
